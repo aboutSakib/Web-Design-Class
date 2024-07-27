@@ -1,0 +1,67 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+a[target="_blank"] {
+  background-color: aqua;
+  font-size: 45px;
+}
+
+a[title~="hello"] {
+  background-color: tomato;
+}
+
+div[class|="child"] {
+  background-color: green;
+  width: 409px;
+}
+
+div[class^="child"] {
+  width: 300px;
+  height: 200px;
+  background: #1ba806;
+  margin-bottom: 5px;
+}
+
+div[class$="hasan"] {
+  background-color: blue;
+}
+
+/* 
+a[target]{
+  background-color: aqua;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+a[target="_self"] {
+  color: rgb(198, 12, 195);
+}
+a[title~="Pro"] {
+  color: aqua;
+  font-weight: bold;
+  font-size: 35px;
+}
+a[title~="BD"] {
+  color: purple;
+  font-weight: normal;
+  font-size: 30px;
+}
+div[class|="child"] {
+  width: 300px;
+  height: 200px;
+  background: #289811;
+}
+div[class^="child"] {
+  width: 300px;
+  height: 200px;
+  background: #e1b12c;
+  margin-bottom: 5px;
+}
+div[class$="ial"] {
+  background: #8c7ae6;
+}
+div[class*="erv"] {
+  background: #e84118;
+}  */
